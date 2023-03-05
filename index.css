@@ -4,10 +4,10 @@ color: white;
 }
 #list {
     position:absolute;
-    right:50px;
+    right:0px;
   }
  #list td {
-    border: 1px solid #da0f0f;
+    border: 1px solid #636262;
   }
 .button{
     font-weight : bold ;
