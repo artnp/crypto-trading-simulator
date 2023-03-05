@@ -2,6 +2,13 @@ body {
 font-family: "Lucida Console", "Courier New", monospace;
 color: white;
 }
+#list {
+    position:absolute;
+    right:50px;
+  }
+ #list td {
+    border: 1px solid #da0f0f;
+  }
 .button{
     font-weight : bold ;
     border-radius: 9 ;
