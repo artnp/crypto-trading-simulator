@@ -2,6 +2,18 @@ body {
 font-family: "Lucida Console", "Courier New", monospace;
 color: white;
 }
+a:link {
+  color: white;
+   text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+a:hover {
+  color: black;
+}
 #list {
     position:absolute;
     right:0px;
