@@ -95,7 +95,7 @@
     <script>
 function cryptoSave() {
 localStorage.setItem('symbol_backtest', document.getElementById("NameCoin").value)
-window.location.reload()
+setTimeout(function () { location.reload(1); }, 4000);
 }
 document.getElementById("botsell").style.display = "none"
 document.getElementById("botgo").style.display = "none"
