@@ -34,7 +34,7 @@ function scan(x){
     percentRangeL = (demand*0.5/100)-demand
     percentResult = (((price*100)/demand)-100).toFixed(2)
     if (price >= percentRangeL && price <= percentRangeH){
-    rows +=   "<tr><td bgcolor='green'>" + symbol + "</td><td><span style='user-select: all; cursor: pointer;'>" + demand + "</span></td><td>" + percentResult + "%</td></tr> "  ;
+    rows +=   "<tr><td bgcolor='green'><a href='https://www.tradingview.com/chart/?symbol=BINANCE%3A"+symbol+"BUSD&interval=15' target='_blank'>" + symbol + "</a></td><td><span style='user-select: all; cursor: pointer;'>" + demand + "</span></td><td>" + percentResult + "%</td></tr> "  ;
     $(rows).appendTo("#list tbody") ;
     }
   })}
