@@ -32,7 +32,7 @@ function scan(x){
     price = Number(result.lastPrice)
     demand = Number(result.lowPrice)
     supply = Number(result.highPrice)
-    percentChance = (((supply-demand)/supply)*100).toFixed(2)
+    percentChance = (((supply-demand)/supply)*100).toFixed(1)
     percentRangeH = (demand*0.5/100)+demand
     percentResult = (((price*100)/demand)-100).toFixed(2)
     if  (price <= demand || price <= percentRangeH  ){
